@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Calculadora</h1>
+        
+        
+    <section>
+            
+            <input id="tela" placeholder="Insira um número" type="text" value readyonly disabled> </input>
+    
+    <div class="corpo-calculadora">
+            
+        <div class="numero" onclick="tela.value+='1'">1</div>
+        <div class="numero" onclick="tela.value+='2'">2</div>
+        <div class="numero" onclick="tela.value+='3'">3</div>
+        <div class="caracteres" onclick="tela.value+='+'">+</div>
+        
+        <div class="numero" onclick="tela.value+='4'">4</div>
+        <div class="numero" onclick="tela.value+='5'">5</div>
+        <div class="numero" onclick="tela.value+='6'">6</div>
+        <div class="caracteres" onclick="tela.value+='-'">-</div>
+        
+        <div class="numero" onclick="tela.value+='7'">7</div>
+        <div class="numero" onclick="tela.value+='8'">8</div>
+        <div class="numero" onclick="tela.value+='9'">9</div>
+        <div class="caracteres" onclick="tela.value+='*'">*</div>
+        
+        <div class="caracteres2" onclick="tela.value=''">C</div>
+        <div class="numero" onclick="tela.value+='0'">0</div>
+        <div class="caracteres1" onclick="tela.value=eval(tela.value)">=</div>
+        <div class="caracteres" onclick="tela.value+='/'">/</div>
+    </div>
+    </section>
+
+</body>
+<html>
